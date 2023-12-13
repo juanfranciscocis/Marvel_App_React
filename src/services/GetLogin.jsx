@@ -5,7 +5,7 @@ export const GetLogin = async (email, password,navigate) =>  {
     console.log(email);
     console.log(password);
     const apiOptions = {
-        server:'http://localhost:3000' // server local - desarrollo
+        server:'https://wiki-marvel-git-2a04b3464a8d.herokuapp.com' // server local - desarrollo
     };
     if (process.env.NODE_ENV === 'production') {
         apiOptions.server ='https://wiki-marvel-git-2a04b3464a8d.herokuapp.com' // server heroku - producción
