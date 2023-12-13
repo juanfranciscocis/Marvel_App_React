@@ -17,7 +17,8 @@ export const GetLogin = async (email, password,navigate) =>  {
                 contrasena: password,
         })
         console.log(user.data.user._id);
-        window.open(`${apiOptions.server}/cuenta/${user.data.user._id}`, '_self');
+        await window.open(`${apiOptions.server}/cuenta/${user.data.user._id}`, '_self');
+        console.log("enviado");
 
         
     }catch (error) {
