@@ -16,9 +16,7 @@ export const GetLogin = async (email, password,navigate) =>  {
                 correo: email,
                 contrasena: password,
         })
-        console.log(user.data.user._id);
         await window.open(`https://wiki-marvel-git-2a04b3464a8d.herokuapp.com/cuenta/${user.data.user._id}`, '_self');
-        console.log("enviado");
 
         
     }catch (error) {
