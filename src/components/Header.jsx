@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const Header = () => {
     return (
         <nav>
-            <img className="lupa_nav" id="lupa_img_nav" src="imagenes/home_page/lupa.png" alt=''></img>
+            <img className="lupa_nav" id="lupa_img_nav" src="imagenes/home_page/lupa.png" alt='' />
             <input id="input_search_nav" className="input_search_nav"/>
             <a href="https://wiki-marvel-git-2a04b3464a8d.herokuapp.com/personajes"><div id="personajes_nav" className="personajes_nav">PERSONAJES</div></a>
             <a href="https://wiki-marvel-git-2a04b3464a8d.herokuapp.com/album"><div id="album_nav" className="album_nav">ALBUMS</div></a>

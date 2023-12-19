@@ -15,7 +15,7 @@ export const Login = () => {
     }
     return (
         <main style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Link to="/">
+            <Link to="https://wiki-marvel-git-2a04b3464a8d.herokuapp.com/">
                 <img className="logo_main" src="imagenes/home_page/logoMarvel.png" alt="Marvel Logo" />
             </Link>
             <div className="container margen">
@@ -26,7 +26,7 @@ export const Login = () => {
                                 INGRESA PARA ACCEDER A TODO EL CONTENIDO
                             </h2>
                             <h4 className="card-subtitle center">
-                                No tienes cuenta?<Link className="inicia_sesion" to="/register">Registrate</Link>
+                                No tienes cuenta?<Link className="inicia_sesion" to="https://wiki-marvel-git-2a04b3464a8d.herokuapp.com/register">Registrate</Link>
                             </h4><br />
                             <form className="custom-form" onSubmit={handleSubmit}>
                                 <div className="form-group">
